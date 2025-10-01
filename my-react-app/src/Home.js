@@ -6,7 +6,7 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div class="App-header">
+    <div className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <h1>Home Page</h1>
       <button onClick={() => navigate("/about")} className="aboutBtn">

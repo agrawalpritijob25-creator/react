@@ -41,3 +41,51 @@
   color: #050000ee;
   background-color: #61dafb;
 }
+
+.card {
+  width: 100%;
+  max-width: 50%;
+  background: #fff;
+  border-radius: 12px;
+  padding: 22px;
+  box-shadow: 0 8px 30px rgba(30, 40, 60, 0.08);
+}
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #334e68;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="age"],
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d9e2ec;
+  background: #fff;
+  font-size: 14px;
+  margin: 14px;
+  outline: none;
+  transition: box-shadow 0.15s, border-color 0.15s;
+}
+
+button {
+  background: linear-gradient(180deg, #1f6feb, #1158c7);
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(17, 88, 199, 0.16);
+}
+
+.error {
+  color: #c53030;
+  font-size: 13px;
+  margin-top: 6px;
+}
